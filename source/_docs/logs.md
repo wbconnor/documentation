@@ -223,7 +223,7 @@ The best recommended practice is to find and resolve the problems. PHP notices, 
 
 ### How do I access logs in environments with multiple containers?
 
-Business and Elite plans have more than a single container in the Live and Test environments. In order to download the logs from each application container, use the following shell script:
+Live environments on all paid plans have multiple containers that can contain logs.  For Personal and Professinal plans, logs could be on a failover container in addition to the main, active container while Business and Elite plans have more than one active container in the Live *and* Test environments. In order to download the logs from each application container, use the following shell script:
 
 ```bash
 # Site UUID from Dashboard URL, eg 12345678-1234-1234-abcd-0123456789ab
