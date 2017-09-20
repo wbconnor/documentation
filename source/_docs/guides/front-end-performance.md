@@ -51,7 +51,7 @@ Other important headers include:
 - x-served-by: This header indicates where your response came from. Our primary infrastructure is in the Midwest of the United States so the first item you will probably see on this list will include "ORD" for the O'Hare airport in Chicago. If you physically located in Los Angeles you will also see LAX, indicating the response went from the primary datacenter to a cached copy in Chicago to a cached copy in Los Angeles.
 
 ![Chrome network headers](/source/docs/assets/images/guides/front-end-performance/chrome-network-headers.png)
-
+ 
 #### Checking for Common Cache Busters
 Not every response from Drupal or WordPress may be cached. Common reasons pages aren't caching include:
 
