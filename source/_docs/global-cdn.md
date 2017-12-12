@@ -24,7 +24,9 @@ In early testing we saw multi-second speedups even within the continental US. In
 ![Example before and after page load time](/docs/assets/images/global-cdn-time-to-load.png)
 
 ## Eligibility
-Open a support chat to enable the upgrade.
+The Global CDN is now Generally Available and all new sites recieve it by default. Most existing sites are now using it, or are a simple DNS change away from a major performance and security update. 
+
+If you had previously requested to remain on legacy HTTPS service during the early access period, you can open a support chat to re-start the upgrade.
 
 ## Feature Comparison
 <table class="table  table-bordered table-responsive">
