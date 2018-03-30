@@ -1,5 +1,5 @@
 ---
-title: AWS S3 Setup for WordPress 
+title: AWS S3 Setup for WordPress
 description: Add the ability to integrate with AWS S3 to a WordPress site on Pantheon
 tags: [siteintegrations]
 categories: [wordpress]
@@ -73,6 +73,13 @@ We recommend that you do not access an S3 bucket using your AWS root user creden
 10. Select your newly created user and click **Add Users**.
 
 ## Integrate S3 with WordPress 
-You will need to install the appropriate WordPress plugin.
+You will need to install a plugin such as [S3 Uploads](https://github.com/humanmade/S3-Uploads){.external} or [WP Offload S3](https://deliciousbrains.com/wp-offload-s3/){.external}.
 
+WP Offload S3 requires a paid license but is configurable in the WordPress admin UI and offers a number of options and features. S3 Uploads is open-source but does not include an admin UI and requires [WP-CLI](/docs/wp-cli) for setup and migration.
 
+### Install and Deploy WP Offload S3
+@todo
+
+### Install and Deploy S3 Uploads
+@todo
+https://deliciousbrains.com/wp-offload-s3/doc/quick-start-guide/
