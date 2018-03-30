@@ -78,7 +78,13 @@ You will need to install a plugin such as [S3 Uploads](https://github.com/humanm
 WP Offload S3 requires a paid license but is configurable in the WordPress admin UI and offers a number of options and features. S3 Uploads is open-source but does not include an admin UI and requires [WP-CLI](/docs/wp-cli) for setup and migration.
 
 ### Install and Deploy WP Offload S3
-@todo
+- Add plugin from Github *not* as a submodule (https://pantheon.io/docs/git-faq/#does-pantheon-support-git-submodules).
+- Add credentials to wp-config with Terminus secrets plugin (see https://pantheon.io/docs/guides/asana/ -- "Securely Store User Credentials on Pantheon")
+- Activate plugin
+- Verify setup
+- Create user
+- Migrate existing media
+- Cache control
 
 ### Install and Deploy S3 Uploads
 @todo
