@@ -8,7 +8,6 @@ tags: [performance, logs]
 2. Toggle available date ranges by clicking **Day**, **Week**, or **Month**:
   ![Charts for pages served and visits within the Metrics tool of the Site Dashboard](/source/docs/assets/images/dashboard/metrics-graphs.png)
 
-
 ## Available Metrics
 {% include("content/traffic-dl.html")%}
 
@@ -38,10 +37,8 @@ There are some inherent limitations with using an analytics suite (e.g. Google A
 ### How does Pantheon handle overages?
 Where there is a pattern of consistent overage, we will align a site's plans with its load on the platform. For details, see <a href="/docs/traffic-limits/#does-pantheon-charge-for-overages" data-proofer-ignore>Traffic Limits and Overages</a>.
 
-
 ### What about bots or DoS attacks?
 Pantheon-identified bots are excluded from the Visits and Pages Served Metrics.
-
 
 ### Can I see metrics for other environments?
 Metrics are currently only available for the Live environment.
